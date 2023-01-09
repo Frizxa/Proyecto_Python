@@ -1,0 +1,38 @@
+Primero que nada, en el cmd, se debe crear una carpeta donde van a residir el proyecto y el ambiente virtual.
+
+mkdir carpeta
+
+
+luego, para crera un ambiente virtual se utiliza 
+
+python -m venv ambiente_1
+
+
+para activarlo, se utiliza 
+
+ambiente_1\Scripts\activate
+
+
+y por ultimo se instala Django
+
+pip install Django
+
+
+Una vez hecho esto, en VSC se cambia al ambiente virtual abajo a la derecha. Y se crea un proyecto aun en cmd con el comando
+
+django-admin startproject proyecto1
+
+
+ahora, se debe crear la aplicacion. Para ello, en la consola del VSC, dentro de la carpeta del proyecto, colocamos:
+
+django-admin startapp aplicacion1
+
+
+para correr la aplicacion se utiliza
+
+python manage.py runserver
+
+
+
+
+
